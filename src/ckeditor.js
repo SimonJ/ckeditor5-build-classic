@@ -27,7 +27,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-import font from '@ckeditor/ckeditor5-font/src/fontfamily/fontfamilyediting';
+import fontFamily from '@ckeditor/ckeditor5-font/src/fontfamily/fontfamilyediting';
 import alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -55,7 +55,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
     SimpleUploadAdapter,
-    font,
+    fontFamily,
     alignment
 ];
 
@@ -67,7 +67,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'bold',
             'italic',
-            'font',
+            'fontFamily',
             'alignment',
             'link',
 			'bulletedList',
