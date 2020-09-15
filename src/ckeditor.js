@@ -68,6 +68,8 @@ ClassicEditor.defaultConfig = {
 			'bold',
             'italic',
             'fontFamily',
+            'fontSize',
+            'fontColor',
             'alignment',
             'link',
 			'bulletedList',
